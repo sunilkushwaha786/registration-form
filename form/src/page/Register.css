@@ -1,0 +1,93 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.rege{
+    background-image: url('./public/elon-musk.webp');
+    background-size: cover;
+    height: 100vh;
+    margin-top:0px;
+    font-size:50px;
+    background-repeat:no-repeat;
+
+    display: flex;
+    background-color: white;
+}
+
+.left{
+    background-color: rgb(0, 119, 255);
+    width: 500px;
+    height: 715px;
+    opacity: 0.5;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.container{
+    font-size: 15px;
+    width: 1100px;
+    background-color: rgb(204, 169, 169);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+
+
+/* Style the range input */
+.form-control-range {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #d3d3d3; 
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .form-control-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff; 
+    cursor: pointer;
+  }
+  
+  .form-control-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    cursor: pointer;
+  }
+  
+  .form-group p {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .registration-image {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    
+    font-weight: 900;
+
+  }
+  
+  .star{
+    color: red;
+}
+ 
+
+  
